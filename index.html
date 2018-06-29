@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<title>Burning Snake</title>	
+</head>
+<body >
+<style>
+#strelka{
+width:500px;
+height:500px;
+position:absolute;
+margin-left:500px;
+border-radius:100%;
+
+}
+.strelkaSec{
+width: 2px;
+height: 190px;
+background-color: black;
+margin-left: 248px;
+position: absolute;
+margin-top: 70px;
+}
+
+#circleMin{
+width:500px;
+height:500px;
+position:absolute;
+margin-left:500px;
+border-radius:100%;
+
+}
+.strelkaMin{
+width: 4px;
+height: 190px;
+background-color: green;
+margin-left: 248px;
+position: absolute;
+margin-top: 70px;
+	
+}
+#circleHours{
+width:500px;
+height:500px;
+position:absolute;
+margin-left:500px;
+border-radius:100%;
+
+}
+.strelkaHours{
+width: 8px;
+height: 140px;
+background-color: gray;
+margin-left: 246px;
+position: absolute;
+margin-top: 120px;
+}
+
+#clock{
+width:500px;
+height:500px;
+position:absolute;
+margin-left:500px;
+border-radius:100%;
+
+}
+#timestring{
+font-weight: bold;
+font-size: 40px;
+margin: -40px 0px 0px 200px;
+}
+</style>
+		<div id="clock">
+		<img style="width:500px"src="http://4.bp.blogspot.com/-RAn0lWRvA_U/UlecUcySz5I/AAAAAAACjw8/BAimn-sreIA/s1600/94500074_6.png">
+		<p id="timestring"></p>
+		</div>
+		<div id="circleHours">
+		<div class="strelkaHours"></div>
+		</div>
+		<div id="circleMin">
+		<div class="strelkaMin"></div>
+		</div>
+		<div id="strelka" >
+		<div class="strelkaSec"></div>
+		</div>
+		
+		
+		
+		
+		<script src="js/jquery-3.2.1.min.js"></script> 
+	<script src="js/script.js"></script> 
+	
+</body>
+</html>

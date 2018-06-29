@@ -1,0 +1,41 @@
+html {
+	overflow-x: hidden;
+}
+.box {
+	height: 100px;
+	width: 100%;
+	float: left;
+	border: 2px solid black;
+	background: linear-gradient(to bottom, #808080 0%, #ffffff 100%);
+	position: relative;
+	text-align: center;
+}
+.boxi {
+	height: 100px;
+	width: 100%;
+	float: left;
+	background-color: green;
+	opacity: 0;
+}
+.box1 {
+	height: 50%;
+	width: 100%;
+	float: left;
+	position: absolute;
+	z-index: 5;
+	top: 0px;
+}
+.box2 {
+	height: 50%;
+	width: 100%;
+	float: left;
+	z-index: 5;
+	position: absolute;
+	top: 50%;
+}
+#columns {
+	width: 60%;
+	margin: 10% 20%;
+	background-color: black;
+	float: left;
+}
